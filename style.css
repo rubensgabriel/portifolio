@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 body{
     background-color: #171717;
-    margin: 15px 30px;
+    margin: 15px 25px;
     font-family: DM Sans, 'sans serif';
 }
 header{
@@ -88,7 +88,6 @@ section.sobre{
  .apresentaçao div > picture > img{
     width: 100%;
     display: block;
-    margin-left: 20px;
 }
 @media(max-width: 690px){
     div.cabeçalho > a{
