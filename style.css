@@ -90,23 +90,26 @@ section.sobre{
     display: block;
 }
 @media(max-width: 690px){
+    body{
+        margin: 15px 13px;
+    }
     div.cabeçalho > a{
-        font-size: 10px;
+        font-size: 9px;
         margin-left: 3px;
     }
     header > a{
-        font-size: 14px;
+        font-size: 13px;
     }
     div.informaçoes > a,p{
-        font-size: 8px;
+        font-size: 7px;
     }
     div.informaçoes > a{
         padding: 5px 12px;
     }
     div.informaçoes > h2{
-        font-size: 1em;
+        font-size: 0.9em;
     }
     section.sobre > h2{
-        font-size: 1em;
+        font-size: 0.9em;
     }
 }
