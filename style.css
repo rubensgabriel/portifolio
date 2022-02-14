@@ -94,22 +94,22 @@ section.sobre{
         margin: 15px 13px;
     }
     div.cabeçalho > a{
-        font-size: 9px;
-        margin-left: 3px;
+        font-size: 13px;
+        margin-left: 4px;
     }
     header > a{
-        font-size: 13px;
+        font-size: 18px;
     }
     div.informaçoes > a,p{
-        font-size: 7px;
+        font-size: 11px;
     }
     div.informaçoes > a{
-        padding: 5px 12px;
+        padding: 6px 14px;
     }
     div.informaçoes > h2{
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
     section.sobre > h2{
-        font-size: 0.9em;
+        font-size: 1.2em;
     }
 }
