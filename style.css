@@ -7,7 +7,7 @@ body{
 }
 header{
     max-width: 1100px;
-    min-width: 370px;
+    min-width: 280px;
     margin: auto;
     text-align: center;
     display: flex;
@@ -35,7 +35,7 @@ section.apresentaçao{
     color: white;
     padding-top: 80px;
     max-width: 1100px;
-    min-width: 370px;
+    min-width: 280px;
     margin: auto;
     text-align: left;
     display: flex;
@@ -43,7 +43,7 @@ section.apresentaçao{
     justify-content: space-between;
 }
 div.informaçoes{
-    min-width: 250px;
+    min-width: 180px;
 }
 div.informaçoes > a{
     padding: 8px 25px;
@@ -80,7 +80,7 @@ section.sobre{
     text-align: center;
     color: white;
     max-width: 700px;
-    min-width: 370px;
+    min-width: 200px;
     padding-top: 35px;
     margin: auto;
 }
@@ -91,19 +91,22 @@ section.sobre{
 }
 @media(max-width: 690px){
     div.cabeçalho > a{
-        font-size: 12px;
-        margin-left: 7px;
+        font-size: 10px;
+        margin-left: 3px;
     }
     header > a{
-        font-size: 20px;
+        font-size: 14px;
     }
     div.informaçoes > a,p{
-        font-size: 12px;
+        font-size: 8px;
     }
     div.informaçoes > a{
-        padding: 5px 16px;
+        padding: 5px 12px;
     }
     div.informaçoes > h2{
-        font-size: 1.4em;
+        font-size: 1em;
+    }
+    section.sobre > h2{
+        font-size: 1em;
     }
 }
