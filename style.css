@@ -37,9 +37,9 @@ section.apresentaçao{
     max-width: 1100px;
     min-width: 280px;
     margin: auto;
-    text-align: left;
+    text-align: justify;
     display: flex;
-    align-items: center;
+    align-items: justify;
     justify-content: space-between;
 }
 div.informaçoes{
@@ -111,5 +111,9 @@ section.sobre{
     }
     section.sobre > h2{
         font-size: 1.2em;
+    }
+    .apresentaçao div > picture > img{
+        width: 80%;
+        padding-left: 30px;
     }
 }
