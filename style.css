@@ -99,7 +99,6 @@ section#sobre > div > a{
     text-decoration: none;
     color: white;
 }
-
 section#sobre > div > a >img{
     background-color: #36343465;
     padding: 8px;
@@ -107,6 +106,28 @@ section#sobre > div > a >img{
     line-height: 55px;
 }
 
+section#projetos > div{
+    background-color: #36343465;
+    padding: 20px 20px 10px;
+    display: inline-block;
+    text-align: left;
+    border: 1px solid rgba(68, 64, 64, 0.178);
+    margin: 20px;
+}
+section#projetos > div:hover{
+    border: 1px solid white;
+    background-color: rgb(26, 24, 24);
+    transition-duration: 0.6s;
+}
+section#projetos > div > a{
+    text-decoration: none;
+    color: white;
+}
+section#projetos{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
  
 @media(max-width: 690px){
     body{
@@ -130,22 +151,15 @@ section#sobre > div > a >img{
         font-size: 1.2em;
     }
 
-    section#sobre > h2{
-        font-size: 1.2em;
-    }
     section#sobre > div> a > p{
-        font-size: 7px;
+        font-size: 6.5px;
     }
     section#sobre > div > a >img{
         width: 20px;
     }
-    section#sobre >div{
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+    h2{
+        font-size: 1.2em;
     }
-
     section.apresentaçao div > picture > img{
         width: 80%;
         padding-left: 30px;
