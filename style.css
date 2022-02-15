@@ -42,6 +42,10 @@ section.apresentaçao{
     align-items: justify;
     justify-content: space-between;
 }
+section.apresentaçao div > picture > img{
+    width: 97%;
+    display: block;
+}
 div.informaçoes{
     min-width: 180px;
 }
@@ -76,7 +80,7 @@ div.informaçoes > h2{
     font-size: 2em;
 }
 
-section.sobre{
+section#sobre{
     text-align: center;
     color: white;
     max-width: 700px;
@@ -84,22 +88,37 @@ section.sobre{
     padding-top: 35px;
     margin: auto;
 }
-
- .apresentaçao div > picture > img{
-    width: 97%;
-    display: block;
+section#sobre >div{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
 }
+section#sobre > div > a{
+    text-decoration: none;
+    color: white;
+}
+section#sobre > div > a >img{
+    background-color: #36343465;
+    padding: 8px;
+    border-radius: 30px;
+    line-height: 55px;
+}
+
+ 
 @media(max-width: 690px){
     body{
         margin: 15px 13px;
     }
     div.cabeçalho > a{
         font-size: 10px;
-        margin-left: 4px;
+        margin-left: 5px;
     }
     header > a{
         font-size: 18px;
     }
+    
     div.informaçoes > a,p{
         font-size: 9px;
     }
@@ -109,10 +128,26 @@ section.sobre{
     div.informaçoes > h2{
         font-size: 1.2em;
     }
-    section.sobre > h2{
+
+    section#sobre > h2{
         font-size: 1.2em;
     }
-    .apresentaçao div > picture > img{
+    section#sobre > div> p,a{
+        font-size: 8px;
+    }
+    section#sobre > div > a >img{
+        width: 20px;
+    }
+    section#sobre >div{
+        flex-wrap: wrap;
+        flex-direction: row; 
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    section.apresentaçao div > picture > img{
         width: 80%;
         padding-left: 30px;
     }
