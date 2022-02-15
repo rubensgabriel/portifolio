@@ -133,15 +133,13 @@ section#sobre > div > a >img{
     section#sobre > h2{
         font-size: 1.2em;
     }
-    section#sobre > div> p,a{
-        font-size: 8px;
+    section#sobre > div> a > p{
+        font-size: 7px;
     }
     section#sobre > div > a >img{
         width: 20px;
     }
     section#sobre >div{
-        flex-wrap: wrap;
-        flex-direction: row; 
         text-align: center;
         display: flex;
         align-items: center;
