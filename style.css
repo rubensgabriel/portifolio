@@ -4,8 +4,6 @@ body{
     background-color: #171717;
     margin: 0px;
     font-family: DM Sans, 'sans serif';
-}
-main{
     margin: 15px 25px;
 }
 header{
@@ -132,9 +130,20 @@ section#projetos{
     text-align: center;
     margin-top: 50px;
 }
+
+section#skills{
+    color: white;
+    text-align: center;
+}
+section#skills > img{
+    background-color: #36343465;
+    padding: 20px;
+    width: 70px;
+    height: 80px;
+}
  
 @media(max-width: 690px){
-    main{
+    body{
         margin: 15px 13px;
     }
     div.cabeçalho > a{
@@ -156,7 +165,7 @@ section#projetos{
     }
 
     section#sobre > div> a > p{
-        font-size: 7px;
+        font-size: 6.5px;
     }
     section#sobre > div > a >img{
         width: 20px;
@@ -174,7 +183,7 @@ footer{
     background-color: #36343465;
     padding: 10px;
     color: white;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 footer > a{
     color: #09DAF6;
