@@ -134,7 +134,7 @@ section#projetos{
 }
  
 @media(max-width: 690px){
-    body{
+    main{
         margin: 15px 13px;
     }
     div.cabeçalho > a{
@@ -156,7 +156,7 @@ section#projetos{
     }
 
     section#sobre > div> a > p{
-        font-size: 6.5px;
+        font-size: 7px;
     }
     section#sobre > div > a >img{
         width: 20px;
