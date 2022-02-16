@@ -205,8 +205,9 @@ section#skills > img:hover{
     }
     
     section.apresentaçao div > picture > img{
-        width: 80%;
-        padding-left: 30px;
+        width: 90%;
+        padding-left: 25px;
+        padding-top: 20px;
     }
 
     div.informaçoes > a,p{
